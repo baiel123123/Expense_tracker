@@ -1,0 +1,35 @@
+.new-expense__controls { 
+ display: flex; 
+ flex-wrap: wrap; 
+ gap: 1rem; 
+ margin-bottom: 1rem; 
+ text-align: left; 
+} 
+.new-expense__control label { 
+ font-weight: bold; 
+ margin-bottom: 0.5rem; 
+ display: block; 
+} 
+.new-expense__control input { 
+ font: inherit; 
+ padding: 0.5rem; 
+ border-radius: 6px; 
+ border: 1px solid rgba(234, 240, 255, 0.14);
+ background: rgba(11, 16, 32, 0.55);
+ color: #eaf0ff;
+ width: 20rem; 
+ max-width: 100%; 
+} 
+.new-expense__control input:focus {
+  outline: none;
+  border-color: rgba(99, 102, 241, 0.65);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.18);
+}
+.new-expense__actions { 
+ text-align: right; 
+  
+} 
+ 
+.action { 
+ display: none; 
+}

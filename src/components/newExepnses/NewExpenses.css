@@ -1,0 +1,18 @@
+.new-expense {
+  padding: 16px;
+}
+
+.new-expense button {
+  font: inherit;
+  cursor: pointer;
+  padding: 10px 14px;
+  border: 1px solid rgba(234, 240, 255, 0.12);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.9), rgba(16, 185, 129, 0.55));
+  color: #0b1020;
+  border-radius: 12px;
+}
+
+.new-expense button:hover,
+.new-expense button:active {
+  filter: brightness(1.05);
+}

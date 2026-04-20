@@ -1,0 +1,19 @@
+.expenses { 
+    padding: 16px; 
+    max-width: 100%; 
+}
+.expenses-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    color: rgba(234, 240, 255, 0.9);
+}
+
+.expenses-filter select {
+    padding: 5px 10px;
+    border-radius: 6px;
+    border: 1px solid rgba(234, 240, 255, 0.14);
+    background: rgba(11, 16, 32, 0.55);
+    color: #eaf0ff;
+}
